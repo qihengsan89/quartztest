@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    defaultContentLanguage='zh-cn',
+    defaultContentLanguage:'zh-cn',
     baseUrl: "dg.sxoa.top",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
