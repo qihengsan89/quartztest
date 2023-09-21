@@ -3,15 +3,14 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🌱 Amunの数字花园",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    defaultContentLanguage:'zh-cn',
     baseUrl: "dg.sxoa.top",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Extras/Templates","Sources/Movies + TV/豆瓣影音导入", "Spaces/0-Work"],
     defaultDateType: "created",
     theme: {
       typography: {
@@ -70,7 +69,6 @@ const config: QuartzConfig = {
       }),
       Plugin.Assets(),
       Plugin.Static(),
-      Plugin.NotFoundPage(),
     ],
   },
 }
